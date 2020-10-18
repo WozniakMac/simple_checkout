@@ -9,7 +9,7 @@ class Basket
   end
 
   def count(code)
-    (@products[code] || []).count
+    products(code).count
   end
 
   def products(code)
