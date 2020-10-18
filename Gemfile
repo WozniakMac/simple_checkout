@@ -9,4 +9,5 @@ gem "money"
 
 group :development, :test do
   gem "standard"
+  gem "byebug"
 end
